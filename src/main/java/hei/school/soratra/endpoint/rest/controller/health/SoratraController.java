@@ -10,14 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Locale;
 
 @RestController
-@PojaGenerated
 public class SoratraController {
 
     @PutMapping("/soratra/{id}")
     public ResponseEntity<?> putSoratra(
             @PathVariable("id") int id,
             @RequestBody PoeticPhraseRequest request) {
-
         return ResponseEntity.ok().build();
     }
     static class PoeticPhraseRequest {
