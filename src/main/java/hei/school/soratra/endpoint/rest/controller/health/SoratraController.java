@@ -16,7 +16,6 @@ public class SoratraController {
     return ResponseEntity.ok().build();
   }
 
-
   static class PoeticPhraseRequest {
     private String phrase_poetique;
 
